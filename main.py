@@ -41,21 +41,21 @@ def print_weekday(tasks):
             index = index - 7
 
         if index == 0:
-            title = '月曜日'
+            week_title = '月曜日'
         elif index == 1:
-            title = '火曜日'
+            week_title = '火曜日'
         elif index == 2:
-            title = '水曜日'
+            week_title = '水曜日'
         elif index == 3:
-            title = '木曜日'
+            week_title = '木曜日'
         elif index == 4:
-            title = '金曜日'
+            week_title = '金曜日'
         elif index == 5:
-            title = '土曜日'
+            week_title = '土曜日'
         elif index == 6:
-            title = '日曜日'
+            week_title = '日曜日'
 
-        print(f'{title}:{tasks[index]}')
+        print(f'{week_title}:{tasks[index]}')
 
 
 if __name__ == '__main__':
